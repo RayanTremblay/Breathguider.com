@@ -1,14 +1,17 @@
 *{
     background-color: #40505E ;
+    text-decoration: none;
+    color: white;
 }
 
 
 .title{
     display: flex;
     justify-content: center;
-    
     color: white;
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    gap: 10px;
+    
     
     
     
@@ -31,6 +34,7 @@ margin: 0px;
     border-style: dotted;
     border-color: white;
     opacity: 50%;
+    position: static;
 }
 
 .secondCircle{
@@ -40,6 +44,7 @@ margin: 0px;
     width: 150px;
     border-radius: 100%;
     border-style: dotted;
+    position: static;
 }
 
 .thirdCircle{
@@ -77,3 +82,76 @@ margin: 0px;
     justify-content: center;
     color: white;
   }
+
+  #Purpose{
+    color: white;
+  }
+
+.Technique{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#titleTechnique{
+    display: flex;
+    justify-content: center;
+}
+
+.thirdCircleBox{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    background-color:grey;
+    border-color: white;
+    opacity: 60%;
+    animation: breathe 16s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+}
+
+
+@keyframes breathe {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(2.66666667); /* Inhale */
+    }
+    50% {
+      transform: scale(2.66666667); /* Hold */
+    }
+    100% {
+      transform: scale(1);   /* Exhale */
+    }
+   
+  }
+
+  .thirdCircleCoherent{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    background-color:grey;
+    border-color: white;
+    opacity: 60%;
+    animation: breathe 10s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.5);
+}
+
+
+@keyframes breathe {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2.66666667); /* Inhale */
+    }
+    100% {
+      transform: scale(1);   /* Exhale */
+    }
+   
+  }
+
+
+ 
+  
