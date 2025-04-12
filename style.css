@@ -118,11 +118,15 @@ margin: 0px;
       transform: scale(1);
     }
     25% {
-      transform: scale(2.66666667); /* Inhale */
+      transform: scale(1); /* Inhale */
     }
     50% {
       transform: scale(2.66666667); /* Hold */
     }
+    75%{
+      transform: scale(2.66666667);
+    }
+
     100% {
       transform: scale(1);   /* Exhale */
     }
