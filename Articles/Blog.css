@@ -1,6 +1,10 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
 
 
 @media (max-width: 768px) {
