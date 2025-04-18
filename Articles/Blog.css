@@ -1,4 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+
+@media (max-width: 768px) {
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 1rem;
+  }
+
+  .container, .ml-embedded {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .post1 {
+    width: 100%;
+  }
+}
 
 
 *{
@@ -14,8 +45,8 @@ color: #222;
 
 
 main{
-  margin-left: 15vh;
-  margin-right: 15vh ;
+  margin-left: 5%;
+  margin-right: 5% ;
 }
 body {
     font-family: 'Inter', sans-serif;
@@ -98,12 +129,14 @@ footer{
     
 }
 .ml-embedded input[type="email"]{
-    height: 50px;
-    width: 400px;
+    height: 3rem;
+    width: 100%;
+    max-width: 25rem;
+    padding: 0.75rem;
     background-color: white;
     border-radius: 10px;
     border-style: solid;
-    font-size: large;
+    font-size: 1rem;
     border-color:black;
 }
 
@@ -146,7 +179,9 @@ footer{
   row-gap: 50px;
   text-align: center;
   margin: 0 auto;
-  width: 70vh;
+  width: 100%;
+  max-width: 40rem;
+  padding: 1rem;
 }
 
 .mainArticles a{
