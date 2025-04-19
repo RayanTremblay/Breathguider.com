@@ -18,21 +18,53 @@
   <url>
     <loc>https://www.breathguider.com/fire.html</loc>
     <lastmod>2025-04-12</lastmod>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.breathguider.com/Coherent.html</loc>
     <lastmod>2025-04-12</lastmod>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.breathguider.com/sigh.html</loc>
     <lastmod>2025-04-12</lastmod>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.breathguider.com/478.html</loc>
     <lastmod>2025-04-12</lastmod>
-    <priority>1.00</priority>
+    <priority>0.80</priority>
   </url>
+
+    <url>
+    <loc>https://www.breathguider.com/Articles/Blog.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+      <url>
+    <loc>https://www.breathguider.com/Articles/Products.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+      <url>
+    <loc>https://www.breathguider.com/Articles/About.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+      <url>
+    <loc>https://www.breathguider.com/Articles/LungsDevices.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+      <url>
+    <loc>https://www.breathguider.com/Articles/10HabitsSleep.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+      <url>
+    <loc>https://www.breathguider.com/Articles/10SleepProducts.html</loc>
+    <lastmod>2025-04-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
 </urlset>
